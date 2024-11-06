@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Vape Store</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 2em;
+            text-align: center;
+        }
+
+        /* About Section */
+        .about {
+            max-width: 800px;
+            margin: auto;
+            padding: 2em;
+            text-align: left;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+            text-align: center;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+            margin-top: 2em;
+        }
+
+        .about img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .about img:hover {
+            transform: scale(1.05);
+        }
+
+        .about-text {
+            text-align: left;
+        }
+
+        .about-text h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 0.5em;
+        }
+
+        .about-text p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vape Store</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="kontak.html">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="about">
+            <h2>Tentang Kami</h2>
+            <p>Vape Store adalah toko online yang menyediakan berbagai macam produk vape dan liquid berkualitas tinggi, dengan komitmen untuk memberikan pengalaman vaping terbaik kepada pelanggan kami.</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Visi Kami</h3>
+                    <p>Kami percaya bahwa vaping adalah masa depan, dan kami berusaha untuk menjadi pemimpin dalam menyediakan produk vape berkualitas tinggi. Dengan tim profesional yang berdedikasi, kami berfokus untuk menciptakan pengalaman yang aman, menyenangkan, dan inovatif bagi setiap pelanggan.</p>
+                    <h3>Misi Kami</h3>
+                    <p>Untuk memenuhi visi tersebut, kami berkomitmen menyediakan layanan terbaik, mulai dari pilihan produk yang beragam, harga yang kompetitif, hingga dukungan pelanggan yang responsif dan ramah.</p>
+                </div>
+                <img src="about-image.jpg" alt="Tim Vape Store">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Vape Store</p>
+    </footer>
+</body>
+</html>

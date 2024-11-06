@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - Vape Store</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Contact Section */
+        .contact {
+            width: 100%;
+            max-width: 600px;
+            background-color: #f9f9f9;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        .contact label {
+            font-size: 1em;
+            color: #666;
+            text-align: left;
+        }
+
+        .contact input, .contact textarea {
+            padding: 0.8em;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact input:focus, .contact textarea:focus {
+            border-color: #333;
+            outline: none;
+        }
+
+        .contact textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        .contact button {
+            padding: 0.8em;
+            font-size: 1em;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact button:hover {
+            background-color: #555;
+        }
+
+        /* Social Media Icons */
+        .social-media {
+            margin-top: 1.5em;
+        }
+
+        .social-media a {
+            margin: 0 0.5em;
+            font-size: 1.5em;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vape Store</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk.html">Produk</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="kontak.html">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Hubungi Kami</h2>
+            <form action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email Anda" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini..." required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+
+            <div class="social-media">
+                <p>Ikuti kami di:</p>
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Vape Store</p>
+    </footer>
+</body>
+</html>
